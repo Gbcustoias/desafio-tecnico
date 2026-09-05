@@ -1,4 +1,9 @@
-package repository;
+package com.giovani.desafiotecnico.repository;
 
-public class TarefaRepository {
+import com.giovani.desafiotecnico.model.Tarefa;
+import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.stereotype.Repository;
+
+@Repository
+public interface TarefaRepository extends JpaRepository<Tarefa, Long> {
 }
