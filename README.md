@@ -215,7 +215,7 @@ DELETE /tarefas/{id}
 ### Clonar Repositório
 
 ```bash
-git clone <url-do-repositorio>
+git clone https://github.com/Gbcustoias/
 ```
 
 ### Executar Aplicação
